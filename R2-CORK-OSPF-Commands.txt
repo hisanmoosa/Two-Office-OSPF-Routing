@@ -1,0 +1,13 @@
+REFERENCE: replacing Project 6 static routing with OSPF.
+Start at the router's # prompt.
+configure terminal
+no ip route 192.168.10.0 255.255.255.0 10.0.0.1
+router ospf 1
+network 192.168.20.0 0.0.0.255 area 0
+network 10.0.0.0 0.0.0.3 area 0
+end
+show ip ospf neighbor
+show ip route
+copy running-config startup-config
+
+Press Enter for the save filename. Ctrl+S saves the Packet Tracer file.

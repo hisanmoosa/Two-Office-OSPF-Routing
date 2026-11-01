@@ -1,0 +1,7 @@
+Device,Port,IP address,Subnet mask,Default gateway,Purpose
+R1-dublin,G0/0,192.168.10.1,255.255.255.0,N/A,Dublin LAN
+R1-dublin,G0/1,10.0.0.1,255.255.255.252,N/A,Router link
+R2-CORK,G0/0,192.168.20.1,255.255.255.0,N/A,Cork LAN
+R2-CORK,G0/1,10.0.0.2,255.255.255.252,N/A,Router link
+DUBLIN-PC,Fa0,192.168.10.11,255.255.255.0,192.168.10.1,Static PC setting
+CORK-PC,Fa0,192.168.20.11,255.255.255.0,192.168.20.1,Static PC setting

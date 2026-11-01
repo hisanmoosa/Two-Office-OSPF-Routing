@@ -1,0 +1,29 @@
+Supplied results; statistics headings simplified.
+DUBLIN-PC to CORK-PC:
+C:\>ping 192.168.20.11
+
+Pinging 192.168.20.11 with 32 bytes of data:
+
+Reply from 192.168.20.11: bytes=32 time<1ms TTL=126
+Reply from 192.168.20.11: bytes=32 time=13ms TTL=126
+Reply from 192.168.20.11: bytes=32 time<1ms TTL=126
+Reply from 192.168.20.11: bytes=32 time<1ms TTL=126
+
+Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
+Minimum = 0ms, Maximum = 13ms, Average = 3ms
+
+CORK-PC to DUBLIN-PC:
+C:\>ping 192.168.10.11
+
+Pinging 192.168.10.11 with 32 bytes of data:
+
+Reply from 192.168.10.11: bytes=32 time<1ms TTL=126
+Reply from 192.168.10.11: bytes=32 time=12ms TTL=126
+Reply from 192.168.10.11: bytes=32 time=4ms TTL=126
+Reply from 192.168.10.11: bytes=32 time=11ms TTL=126
+
+Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
+Minimum = 0ms, Maximum = 12ms, Average = 6ms
+
+Dublin router to 192.168.20.11: !!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 0/0/2 ms
